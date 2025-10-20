@@ -1,0 +1,1049 @@
+[0.000000] (-) TimerEvent: {}
+[0.003401] (ackermann_msgs) JobQueued: {'identifier': 'ackermann_msgs', 'dependencies': OrderedDict()}
+[0.003698] (smart_car) JobQueued: {'identifier': 'smart_car', 'dependencies': OrderedDict()}
+[0.003735] (smartcar_msgs) JobQueued: {'identifier': 'smartcar_msgs', 'dependencies': OrderedDict()}
+[0.003803] (car_gazebo_plugin) JobQueued: {'identifier': 'car_gazebo_plugin', 'dependencies': OrderedDict([('ackermann_msgs', '/home/ros2/ros2_ws/install/ackermann_msgs'), ('smartcar_msgs', '/home/ros2/ros2_ws/install/smartcar_msgs')])}
+[0.003834] (ackermann_msgs) JobStarted: {'identifier': 'ackermann_msgs'}
+[0.018356] (smartcar_msgs) JobStarted: {'identifier': 'smartcar_msgs'}
+[0.027908] (smart_car) JobStarted: {'identifier': 'smart_car'}
+[0.036706] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'cmake'}
+[0.044675] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'build'}
+[0.044774] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/ackermann_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ros2_ws/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/ackermann_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047999] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'cmake'}
+[0.051039] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'build'}
+[0.051095] (smartcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/smartcar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ros2_ws/build/smartcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/smartcar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062237] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'cmake'}
+[0.066223] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'build'}
+[0.066285] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/smart_car', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ros2_ws/build/smart_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/smart_car'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100516] (-) TimerEvent: {}
+[0.158550] (smart_car) CommandEnded: {'returncode': 0}
+[0.165744] (ackermann_msgs) StdoutLine: {'line': b'[  2%] Built target ackermann_msgs__cpp\n'}
+[0.167244] (smartcar_msgs) StdoutLine: {'line': b'[  3%] Built target smartcar_msgs__cpp\n'}
+[0.173462] (smartcar_msgs) StdoutLine: {'line': b'[ 12%] Built target smartcar_msgs__rosidl_generator_c\n'}
+[0.186901] (smartcar_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_smartcar_msgs\n'}
+[0.189092] (ackermann_msgs) StdoutLine: {'line': b'[ 12%] Built target ackermann_msgs__rosidl_generator_c\n'}
+[0.200977] (-) TimerEvent: {}
+[0.206870] (ackermann_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_ackermann_msgs\n'}
+[0.245021] (smartcar_msgs) StdoutLine: {'line': b'[ 22%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.270042] (ackermann_msgs) StdoutLine: {'line': b'[ 23%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.270324] (ackermann_msgs) StdoutLine: {'line': b'[ 33%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.270979] (ackermann_msgs) StdoutLine: {'line': b'[ 43%] Built target ackermann_msgs__rosidl_typesupport_introspection_c\n'}
+[0.276032] (smartcar_msgs) StdoutLine: {'line': b'[ 32%] Built target smartcar_msgs__rosidl_typesupport_c\n'}
+[0.278165] (smartcar_msgs) StdoutLine: {'line': b'[ 41%] Built target smartcar_msgs__rosidl_typesupport_cpp\n'}
+[0.280815] (smartcar_msgs) StdoutLine: {'line': b'[ 51%] Built target smartcar_msgs__rosidl_typesupport_introspection_c\n'}
+[0.284827] (ackermann_msgs) StdoutLine: {'line': b'[ 53%] Built target ackermann_msgs__rosidl_typesupport_cpp\n'}
+[0.288824] (smartcar_msgs) StdoutLine: {'line': b'[ 61%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.297518] (ackermann_msgs) StdoutLine: {'line': b'[ 64%] Built target ackermann_msgs__rosidl_typesupport_c\n'}
+[0.298196] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.301302] (-) TimerEvent: {}
+[0.311623] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'install'}
+[0.312057] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] Built target smartcar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.335084] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/smart_car'], 'cwd': '/home/ros2/ros2_ws/build/smart_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/smart_car'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.357273] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs\n'}
+[0.362596] (smart_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.362963] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf\n'}
+[0.363102] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro\n'}
+[0.363622] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world\n'}
+[0.364180] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world\n'}
+[0.364667] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz\n'}
+[0.364879] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz\n'}
+[0.365227] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch\n'}
+[0.366447] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py\n'}
+[0.366614] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py\n'}
+[0.366736] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car\n'}
+[0.366846] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car\n'}
+[0.367158] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh\n'}
+[0.367547] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv\n'}
+[0.367671] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.sh\n'}
+[0.367990] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv\n'}
+[0.368131] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.bash\n'}
+[0.368263] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.sh\n'}
+[0.368785] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh\n'}
+[0.369105] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv\n'}
+[0.369201] (smart_car) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv\n'}
+[0.369292] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car\n'}
+[0.369432] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake\n'}
+[0.369585] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake\n'}
+[0.369751] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.xml\n'}
+[0.370814] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] Built target smartcar_msgs\n'}
+[0.378141] (smart_car) CommandEnded: {'returncode': 0}
+[0.402654] (-) TimerEvent: {}
+[0.422801] (smartcar_msgs) StdoutLine: {'line': b'[ 74%] Built target smartcar_msgs__py\n'}
+[0.423316] (ackermann_msgs) StdoutLine: {'line': b'[ 76%] Built target ackermann_msgs__py\n'}
+[0.479107] (smartcar_msgs) StdoutLine: {'line': b'[ 80%] Built target smartcar_msgs__rosidl_generator_py\n'}
+[0.505831] (ackermann_msgs) StdoutLine: {'line': b'[ 84%] Built target ackermann_msgs__rosidl_generator_py\n'}
+[0.506185] (-) TimerEvent: {}
+[0.523358] (smart_car) JobEnded: {'identifier': 'smart_car', 'rc': 0}
+[0.553989] (smartcar_msgs) StdoutLine: {'line': b'[ 87%] Built target smartcar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.570683] (ackermann_msgs) StdoutLine: {'line': b'[ 89%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.572169] (smartcar_msgs) StdoutLine: {'line': b'[ 93%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.573704] (smartcar_msgs) StdoutLine: {'line': b'[100%] Built target smartcar_msgs__rosidl_typesupport_c__pyext\n'}
+[0.585658] (ackermann_msgs) StdoutLine: {'line': b'[ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.587801] (ackermann_msgs) StdoutLine: {'line': b'[100%] Built target ackermann_msgs__rosidl_typesupport_c__pyext\n'}
+[0.606724] (-) TimerEvent: {}
+[0.707777] (-) TimerEvent: {}
+[0.809483] (-) TimerEvent: {}
+[0.823499] (smartcar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.826994] (smartcar_msgs) StdoutLine: {'line': b'writing smartcar_msgs.egg-info/PKG-INFO\n'}
+[0.827159] (smartcar_msgs) StdoutLine: {'line': b'writing dependency_links to smartcar_msgs.egg-info/dependency_links.txt\n'}
+[0.827262] (smartcar_msgs) StdoutLine: {'line': b'writing top-level names to smartcar_msgs.egg-info/top_level.txt\n'}
+[0.831469] (smartcar_msgs) StdoutLine: {'line': b"reading manifest file 'smartcar_msgs.egg-info/SOURCES.txt'\n"}
+[0.832628] (smartcar_msgs) StdoutLine: {'line': b"writing manifest file 'smartcar_msgs.egg-info/SOURCES.txt'\n"}
+[0.880452] (smartcar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_smartcar_msgs_egg\n'}
+[0.901977] (ackermann_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.902888] (smartcar_msgs) CommandEnded: {'returncode': 0}
+[0.904096] (ackermann_msgs) StdoutLine: {'line': b'writing ackermann_msgs.egg-info/PKG-INFO\n'}
+[0.904811] (ackermann_msgs) StdoutLine: {'line': b'writing dependency_links to ackermann_msgs.egg-info/dependency_links.txt\n'}
+[0.904966] (ackermann_msgs) StdoutLine: {'line': b'writing top-level names to ackermann_msgs.egg-info/top_level.txt\n'}
+[0.908942] (ackermann_msgs) StdoutLine: {'line': b"reading manifest file 'ackermann_msgs.egg-info/SOURCES.txt'\n"}
+[0.909910] (-) TimerEvent: {}
+[0.910732] (ackermann_msgs) StdoutLine: {'line': b"writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'\n"}
+[0.960838] (ackermann_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ackermann_msgs_egg\n'}
+[0.982758] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[1.010379] (-) TimerEvent: {}
+[1.111594] (-) TimerEvent: {}
+[1.124034] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'install'}
+[1.124131] (smartcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/smartcar_msgs'], 'cwd': '/home/ros2/ros2_ws/build/smartcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/smartcar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.139282] (smartcar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.139852] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/rosidl_interfaces/smartcar_msgs\n'}
+[1.139975] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.140072] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.140165] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/status.h\n'}
+[1.140257] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.140593] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.140704] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__type_support.h\n'}
+[1.140795] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__functions.h\n'}
+[1.140885] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__struct.h\n'}
+[1.140976] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__functions.c\n'}
+[1.141066] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/library_path.sh\n'}
+[1.141255] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/library_path.dsv\n'}
+[1.141747] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_c.so\n'}
+[1.141849] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.142349] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.143146] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.143297] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.143752] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.143863] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.144206] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.144302] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.145202] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.145802] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__type_support.c\n'}
+[1.146582] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[1.147360] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.148174] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.149115] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_c.so\n'}
+[1.149276] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.149683] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.149835] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.149993] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__traits.hpp\n'}
+[1.150181] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__struct.hpp\n'}
+[1.150328] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__builder.hpp\n'}
+[1.150792] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/status.hpp\n'}
+[1.150939] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.151087] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.151289] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.151752] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.151959] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.152165] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/dds_fastrtps\n'}
+[1.152417] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.152668] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs\n'}
+[1.153247] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg\n'}
+[1.153740] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail\n'}
+[1.153963] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__type_support.cpp\n'}
+[1.154168] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.154369] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.154778] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_cpp.so\n'}
+[1.154977] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/pythonpath.sh\n'}
+[1.155127] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/pythonpath.dsv\n'}
+[1.155326] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info\n'}
+[1.155795] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.155945] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.156148] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.156312] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.156774] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs\n'}
+[1.156924] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/__init__.py\n'}
+[1.157124] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/libsmartcar_msgs__rosidl_generator_py.so\n'}
+[1.157272] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.157785] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.157989] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.158191] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.158983] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.159158] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.159304] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg\n'}
+[1.159447] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/__init__.py\n'}
+[1.159587] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/_status_s.c\n'}
+[1.159727] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/_status.py\n'}
+[1.203871] (smartcar_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs'...\n"}
+[1.204016] (smartcar_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg'...\n"}
+[1.210967] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.211578] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.211671] (-) TimerEvent: {}
+[1.212245] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.213001] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_py.so\n'}
+[1.213096] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/msg/Status.idl\n'}
+[1.213305] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/msg/Status.msg\n'}
+[1.213362] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/package_run_dependencies/smartcar_msgs\n'}
+[1.213691] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/parent_prefix_path/smartcar_msgs\n'}
+[1.213981] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/ament_prefix_path.sh\n'}
+[1.214089] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/ament_prefix_path.dsv\n'}
+[1.214176] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/path.sh\n'}
+[1.214264] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/path.dsv\n'}
+[1.214603] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.bash\n'}
+[1.214731] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.sh\n'}
+[1.214828] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.zsh\n'}
+[1.214914] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.dsv\n'}
+[1.215000] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.dsv\n'}
+[1.215177] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/packages/smartcar_msgs\n'}
+[1.215265] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cExport.cmake\n'}
+[1.215351] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.215436] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.215785] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.215915] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.216770] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.216868] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.216939] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.217009] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.217076] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.217191] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.217509] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.218176] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.218266] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.218353] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.218726] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.218817] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.218905] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.219033] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.219121] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.219295] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.220040] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.220203] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.220662] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.220971] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgsConfig.cmake\n'}
+[1.221609] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgsConfig-version.cmake\n'}
+[1.222155] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.xml\n'}
+[1.224633] (smartcar_msgs) CommandEnded: {'returncode': 0}
+[1.286669] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'install'}
+[1.287117] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/ackermann_msgs'], 'cwd': '/home/ros2/ros2_ws/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/ackermann_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.304312] (ackermann_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.304874] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs\n'}
+[1.305158] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.305298] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.305806] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.306093] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive.h\n'}
+[1.306543] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive_stamped.h\n'}
+[1.307049] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.307913] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.h\n'}
+[1.308210] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.c\n'}
+[1.308306] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__struct.h\n'}
+[1.308730] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__functions.c\n'}
+[1.308871] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.h\n'}
+[1.309550] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__functions.h\n'}
+[1.309709] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.h\n'}
+[1.309862] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.h\n'}
+[1.310027] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh\n'}
+[1.310190] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv\n'}
+[1.310343] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so\n'}
+[1.310798] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.310946] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.311036] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.311991] (-) TimerEvent: {}
+[1.312204] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.312743] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[1.313107] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[1.313742] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.314256] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.315410] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.315699] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.315837] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_c.h\n'}
+[1.315927] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_c.h\n'}
+[1.316060] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.c\n'}
+[1.316193] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.c\n'}
+[1.316325] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.316417] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.317159] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so\n'}
+[1.317257] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.317377] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.317981] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive_stamped.hpp\n'}
+[1.318076] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive.hpp\n'}
+[1.318164] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.318251] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__builder.hpp\n'}
+[1.318551] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__struct.hpp\n'}
+[1.318659] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.hpp\n'}
+[1.318745] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__traits.hpp\n'}
+[1.318831] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__builder.hpp\n'}
+[1.318927] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__traits.hpp\n'}
+[1.319017] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.319104] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.319190] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.319276] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.319362] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.319448] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.319888] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/dds_fastrtps\n'}
+[1.319997] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.320085] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs\n'}
+[1.320172] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg\n'}
+[1.320282] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail\n'}
+[1.320431] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.321108] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.cpp\n'}
+[1.321602] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.cpp\n'}
+[1.321742] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.321872] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.322008] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so\n'}
+[1.322101] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh\n'}
+[1.322232] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv\n'}
+[1.322853] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info\n'}
+[1.323019] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/SOURCES.txt\n'}
+[1.323174] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/PKG-INFO\n'}
+[1.323312] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/top_level.txt\n'}
+[1.323461] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/dependency_links.txt\n'}
+[1.323558] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs\n'}
+[1.323648] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/__init__.py\n'}
+[1.323733] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.324085] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.324374] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/libackermann_msgs__rosidl_generator_py.so\n'}
+[1.324485] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.324624] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.324760] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.324888] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.325181] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg\n'}
+[1.325276] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/__init__.py\n'}
+[1.325566] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_stamped.py\n'}
+[1.325660] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive.py\n'}
+[1.325746] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_s.c\n'}
+[1.325830] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_stamped_s.c\n'}
+[1.366961] (ackermann_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs'...\n"}
+[1.367112] (ackermann_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg'...\n"}
+[1.373669] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.374247] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.375729] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.375875] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_py.so\n'}
+[1.376537] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.idl\n'}
+[1.376653] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.idl\n'}
+[1.376793] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.msg\n'}
+[1.376928] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.msg\n'}
+[1.377017] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs\n'}
+[1.377152] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs\n'}
+[1.377284] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh\n'}
+[1.377418] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv\n'}
+[1.377996] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh\n'}
+[1.378147] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv\n'}
+[1.378281] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash\n'}
+[1.378413] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh\n'}
+[1.378548] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh\n'}
+[1.378636] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv\n'}
+[1.378977] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv\n'}
+[1.379566] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs\n'}
+[1.379738] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport.cmake\n'}
+[1.379858] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.380647] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.380947] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.381783] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.382098] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.382191] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.382285] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.382514] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.382780] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.382874] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.383126] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.383217] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.383306] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.383688] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.383778] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.384073] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.384212] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.384595] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.385133] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.385245] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.385718] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.386148] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.386245] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.386419] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake\n'}
+[1.387082] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake\n'}
+[1.387613] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.xml\n'}
+[1.390899] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[1.412758] (-) TimerEvent: {}
+[1.479886] (smartcar_msgs) JobEnded: {'identifier': 'smartcar_msgs', 'rc': 0}
+[1.513012] (-) TimerEvent: {}
+[1.614371] (-) TimerEvent: {}
+[1.711917] (ackermann_msgs) JobEnded: {'identifier': 'ackermann_msgs', 'rc': 0}
+[1.715403] (-) TimerEvent: {}
+[1.715985] (car_gazebo_plugin) JobStarted: {'identifier': 'car_gazebo_plugin'}
+[1.750785] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'cmake'}
+[1.753070] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ros2_ws/src/car_gazebo_plugin', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/car_gazebo_plugin'], 'cwd': '/home/ros2/ros2_ws/build/car_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/car_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble')]), 'shell': False}
+[1.787853] (car_gazebo_plugin) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.788053] (car_gazebo_plugin) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.788291] (car_gazebo_plugin) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.788629] (car_gazebo_plugin) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.788720] (car_gazebo_plugin) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.788805] (car_gazebo_plugin) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.788889] (car_gazebo_plugin) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.788973] (car_gazebo_plugin) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.789056] (car_gazebo_plugin) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[1.789140] (car_gazebo_plugin) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.789224] (car_gazebo_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[1.816810] (-) TimerEvent: {}
+[1.832157] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.897475] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.897659] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.901859] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.904532] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.916653] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.916824] (-) TimerEvent: {}
+[1.917219] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.936193] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.936791] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.936896] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.936985] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.937071] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.937417] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.937525] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.937611] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.937697] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.938015] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.938114] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.938199] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.040878] (-) TimerEvent: {}
+[2.142862] (-) TimerEvent: {}
+[2.213146] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.213335] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.214260] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.242064] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.243340] (-) TimerEvent: {}
+[2.254583] (car_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.263611] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.293498] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.344788] (-) TimerEvent: {}
+[2.378279] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.406457] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.446492] (-) TimerEvent: {}
+[2.471984] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.473190] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.503804] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.513349] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.538435] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.546932] (-) TimerEvent: {}
+[2.610059] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.610808] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.611716] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.612067] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.612141] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.632683] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.633458] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.634274] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.635087] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.636697] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.637494] (car_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.648329] (-) TimerEvent: {}
+[2.704536] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.735091] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.749499] (-) TimerEvent: {}
+[2.819049] (car_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.845308] (car_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.849839] (-) TimerEvent: {}
+[2.921681] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.922522] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.923380] (car_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.925998] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.952105] (-) TimerEvent: {}
+[3.055155] (-) TimerEvent: {}
+[3.156139] (-) TimerEvent: {}
+[3.230433] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.235100] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.245445] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.262332] (-) TimerEvent: {}
+[3.264207] (car_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.287123] (car_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.359824] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.362147] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.362541] (-) TimerEvent: {}
+[3.404705] (car_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.463716] (-) TimerEvent: {}
+[3.531196] (car_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.534377] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[3.535530] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.573924] (-) TimerEvent: {}
+[3.617142] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.661396] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake)\n'}
+[3.675813] (-) TimerEvent: {}
+[3.692684] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.700225] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.786189] (-) TimerEvent: {}
+[3.891161] (-) TimerEvent: {}
+[3.893259] (car_gazebo_plugin) StdoutLine: {'line': b'-- Found smartcar_msgs: 0.0.0 (/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake)\n'}
+[3.991857] (-) TimerEvent: {}
+[4.063888] (car_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.095687] (-) TimerEvent: {}
+[4.198386] (-) TimerEvent: {}
+[4.299011] (-) TimerEvent: {}
+[4.401196] (-) TimerEvent: {}
+[4.502288] (-) TimerEvent: {}
+[4.607554] (-) TimerEvent: {}
+[4.709724] (-) TimerEvent: {}
+[4.811544] (-) TimerEvent: {}
+[4.914189] (-) TimerEvent: {}
+[5.017204] (-) TimerEvent: {}
+[5.119140] (-) TimerEvent: {}
+[5.222843] (-) TimerEvent: {}
+[5.327740] (-) TimerEvent: {}
+[5.408945] (car_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[5.414716] (car_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_ws/build/car_gazebo_plugin\n'}
+[5.431450] (-) TimerEvent: {}
+[5.436150] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[5.436806] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'build'}
+[5.436848] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/car_gazebo_plugin', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ros2_ws/build/car_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/car_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble')]), 'shell': False}
+[5.541524] (-) TimerEvent: {}
+[5.542168] (car_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/car_gazebo_plugin.dir/src/car_gazebo_plugin.cpp.o\x1b[0m\n'}
+[5.642640] (-) TimerEvent: {}
+[5.744618] (-) TimerEvent: {}
+[5.846591] (-) TimerEvent: {}
+[5.947400] (-) TimerEvent: {}
+[6.047881] (-) TimerEvent: {}
+[6.154948] (-) TimerEvent: {}
+[6.257167] (-) TimerEvent: {}
+[6.358735] (-) TimerEvent: {}
+[6.461151] (-) TimerEvent: {}
+[6.562967] (-) TimerEvent: {}
+[6.665348] (-) TimerEvent: {}
+[6.767981] (-) TimerEvent: {}
+[6.870571] (-) TimerEvent: {}
+[6.973796] (-) TimerEvent: {}
+[7.076478] (-) TimerEvent: {}
+[7.178843] (-) TimerEvent: {}
+[7.281476] (-) TimerEvent: {}
+[7.383769] (-) TimerEvent: {}
+[7.484759] (-) TimerEvent: {}
+[7.587418] (-) TimerEvent: {}
+[7.689605] (-) TimerEvent: {}
+[7.792020] (-) TimerEvent: {}
+[7.893892] (-) TimerEvent: {}
+[7.995732] (-) TimerEvent: {}
+[8.097584] (-) TimerEvent: {}
+[8.198365] (-) TimerEvent: {}
+[8.298995] (-) TimerEvent: {}
+[8.400541] (-) TimerEvent: {}
+[8.502751] (-) TimerEvent: {}
+[8.604351] (-) TimerEvent: {}
+[8.705408] (-) TimerEvent: {}
+[8.806697] (-) TimerEvent: {}
+[8.908338] (-) TimerEvent: {}
+[9.011059] (-) TimerEvent: {}
+[9.113462] (-) TimerEvent: {}
+[9.214685] (-) TimerEvent: {}
+[9.317148] (-) TimerEvent: {}
+[9.419697] (-) TimerEvent: {}
+[9.524715] (-) TimerEvent: {}
+[9.626272] (-) TimerEvent: {}
+[9.727737] (-) TimerEvent: {}
+[9.830920] (-) TimerEvent: {}
+[9.934470] (-) TimerEvent: {}
+[10.036823] (-) TimerEvent: {}
+[10.139893] (-) TimerEvent: {}
+[10.242545] (-) TimerEvent: {}
+[10.345243] (-) TimerEvent: {}
+[10.447658] (-) TimerEvent: {}
+[10.551385] (-) TimerEvent: {}
+[10.653221] (-) TimerEvent: {}
+[10.754284] (-) TimerEvent: {}
+[10.855994] (-) TimerEvent: {}
+[10.960290] (-) TimerEvent: {}
+[11.064405] (-) TimerEvent: {}
+[11.169990] (-) TimerEvent: {}
+[11.278876] (-) TimerEvent: {}
+[11.380010] (-) TimerEvent: {}
+[11.482204] (-) TimerEvent: {}
+[11.586382] (-) TimerEvent: {}
+[11.691398] (-) TimerEvent: {}
+[11.795103] (-) TimerEvent: {}
+[11.896105] (-) TimerEvent: {}
+[11.999688] (-) TimerEvent: {}
+[12.100596] (-) TimerEvent: {}
+[12.202982] (-) TimerEvent: {}
+[12.307402] (-) TimerEvent: {}
+[12.408625] (-) TimerEvent: {}
+[12.511215] (-) TimerEvent: {}
+[12.612239] (-) TimerEvent: {}
+[12.715482] (-) TimerEvent: {}
+[12.819200] (-) TimerEvent: {}
+[12.925154] (-) TimerEvent: {}
+[13.029512] (-) TimerEvent: {}
+[13.132471] (-) TimerEvent: {}
+[13.244535] (-) TimerEvent: {}
+[13.348979] (-) TimerEvent: {}
+[13.451491] (-) TimerEvent: {}
+[13.552339] (-) TimerEvent: {}
+[13.657601] (-) TimerEvent: {}
+[13.760441] (-) TimerEvent: {}
+[13.867742] (-) TimerEvent: {}
+[13.974172] (-) TimerEvent: {}
+[14.078812] (-) TimerEvent: {}
+[14.183076] (-) TimerEvent: {}
+[14.285797] (-) TimerEvent: {}
+[14.386575] (-) TimerEvent: {}
+[14.489652] (-) TimerEvent: {}
+[14.600412] (-) TimerEvent: {}
+[14.713435] (-) TimerEvent: {}
+[14.815926] (-) TimerEvent: {}
+[14.917607] (-) TimerEvent: {}
+[15.030623] (-) TimerEvent: {}
+[15.134724] (-) TimerEvent: {}
+[15.236685] (-) TimerEvent: {}
+[15.338717] (-) TimerEvent: {}
+[15.442692] (-) TimerEvent: {}
+[15.547073] (-) TimerEvent: {}
+[15.653488] (-) TimerEvent: {}
+[15.763187] (-) TimerEvent: {}
+[15.872062] (-) TimerEvent: {}
+[15.977131] (-) TimerEvent: {}
+[16.078506] (-) TimerEvent: {}
+[16.185839] (-) TimerEvent: {}
+[16.298943] (-) TimerEvent: {}
+[16.405439] (-) TimerEvent: {}
+[16.512267] (-) TimerEvent: {}
+[16.625460] (-) TimerEvent: {}
+[16.728862] (-) TimerEvent: {}
+[16.839674] (-) TimerEvent: {}
+[16.950682] (-) TimerEvent: {}
+[17.054641] (-) TimerEvent: {}
+[17.167034] (-) TimerEvent: {}
+[17.270613] (-) TimerEvent: {}
+[17.376974] (-) TimerEvent: {}
+[17.477481] (-) TimerEvent: {}
+[17.583855] (-) TimerEvent: {}
+[17.692206] (-) TimerEvent: {}
+[17.792785] (-) TimerEvent: {}
+[17.895790] (-) TimerEvent: {}
+[18.049500] (-) TimerEvent: {}
+[18.154908] (-) TimerEvent: {}
+[18.264806] (-) TimerEvent: {}
+[18.381481] (-) TimerEvent: {}
+[18.487517] (-) TimerEvent: {}
+[18.593516] (-) TimerEvent: {}
+[18.705749] (-) TimerEvent: {}
+[18.808807] (-) TimerEvent: {}
+[18.917449] (-) TimerEvent: {}
+[19.026606] (-) TimerEvent: {}
+[19.128105] (-) TimerEvent: {}
+[19.242270] (-) TimerEvent: {}
+[19.346050] (-) TimerEvent: {}
+[19.457466] (-) TimerEvent: {}
+[19.561207] (-) TimerEvent: {}
+[19.662110] (-) TimerEvent: {}
+[19.776481] (-) TimerEvent: {}
+[19.888121] (-) TimerEvent: {}
+[19.992974] (-) TimerEvent: {}
+[20.099318] (-) TimerEvent: {}
+[20.204040] (-) TimerEvent: {}
+[20.305809] (-) TimerEvent: {}
+[20.408287] (-) TimerEvent: {}
+[20.522994] (-) TimerEvent: {}
+[20.631234] (-) TimerEvent: {}
+[20.733568] (-) TimerEvent: {}
+[20.846652] (-) TimerEvent: {}
+[20.951334] (-) TimerEvent: {}
+[21.051700] (-) TimerEvent: {}
+[21.168532] (-) TimerEvent: {}
+[21.273083] (-) TimerEvent: {}
+[21.384436] (-) TimerEvent: {}
+[21.492458] (-) TimerEvent: {}
+[21.599948] (-) TimerEvent: {}
+[21.707054] (-) TimerEvent: {}
+[21.820641] (-) TimerEvent: {}
+[21.926867] (-) TimerEvent: {}
+[22.038964] (-) TimerEvent: {}
+[22.153472] (-) TimerEvent: {}
+[22.253827] (-) TimerEvent: {}
+[22.364813] (-) TimerEvent: {}
+[22.469847] (-) TimerEvent: {}
+[22.583967] (-) TimerEvent: {}
+[22.686846] (-) TimerEvent: {}
+[22.795517] (-) TimerEvent: {}
+[22.905110] (-) TimerEvent: {}
+[23.021740] (-) TimerEvent: {}
+[23.126500] (-) TimerEvent: {}
+[23.228412] (-) TimerEvent: {}
+[23.339300] (-) TimerEvent: {}
+[23.444020] (-) TimerEvent: {}
+[23.556712] (-) TimerEvent: {}
+[23.658470] (-) TimerEvent: {}
+[23.758795] (-) TimerEvent: {}
+[23.862589] (-) TimerEvent: {}
+[23.979589] (-) TimerEvent: {}
+[24.085731] (-) TimerEvent: {}
+[24.199326] (-) TimerEvent: {}
+[24.308583] (-) TimerEvent: {}
+[24.414760] (-) TimerEvent: {}
+[24.517539] (-) TimerEvent: {}
+[24.623249] (-) TimerEvent: {}
+[24.735005] (-) TimerEvent: {}
+[24.841802] (-) TimerEvent: {}
+[24.946420] (-) TimerEvent: {}
+[25.060829] (-) TimerEvent: {}
+[25.167821] (-) TimerEvent: {}
+[25.276193] (-) TimerEvent: {}
+[25.385992] (-) TimerEvent: {}
+[25.498473] (-) TimerEvent: {}
+[25.603598] (-) TimerEvent: {}
+[25.711630] (-) TimerEvent: {}
+[25.821461] (-) TimerEvent: {}
+[25.925895] (-) TimerEvent: {}
+[26.040418] (-) TimerEvent: {}
+[26.147818] (-) TimerEvent: {}
+[26.254237] (-) TimerEvent: {}
+[26.362648] (-) TimerEvent: {}
+[26.473624] (-) TimerEvent: {}
+[26.585090] (-) TimerEvent: {}
+[26.694429] (-) TimerEvent: {}
+[26.810770] (-) TimerEvent: {}
+[26.917905] (-) TimerEvent: {}
+[27.028298] (-) TimerEvent: {}
+[27.130746] (-) TimerEvent: {}
+[27.237145] (-) TimerEvent: {}
+[27.338643] (-) TimerEvent: {}
+[27.440219] (-) TimerEvent: {}
+[27.553469] (-) TimerEvent: {}
+[27.657946] (-) TimerEvent: {}
+[27.762162] (-) TimerEvent: {}
+[27.871884] (-) TimerEvent: {}
+[27.973980] (-) TimerEvent: {}
+[28.076657] (-) TimerEvent: {}
+[28.186582] (-) TimerEvent: {}
+[28.303389] (-) TimerEvent: {}
+[28.415522] (-) TimerEvent: {}
+[28.518465] (-) TimerEvent: {}
+[28.638213] (-) TimerEvent: {}
+[28.754438] (-) TimerEvent: {}
+[28.862462] (-) TimerEvent: {}
+[28.978930] (-) TimerEvent: {}
+[29.095248] (-) TimerEvent: {}
+[29.201730] (-) TimerEvent: {}
+[29.303422] (-) TimerEvent: {}
+[29.414479] (-) TimerEvent: {}
+[29.525422] (-) TimerEvent: {}
+[29.632477] (-) TimerEvent: {}
+[29.735485] (-) TimerEvent: {}
+[29.837549] (-) TimerEvent: {}
+[29.950327] (-) TimerEvent: {}
+[30.051755] (-) TimerEvent: {}
+[30.172435] (-) TimerEvent: {}
+[30.274111] (-) TimerEvent: {}
+[30.382526] (-) TimerEvent: {}
+[30.486279] (-) TimerEvent: {}
+[30.595389] (-) TimerEvent: {}
+[30.699988] (-) TimerEvent: {}
+[30.801102] (-) TimerEvent: {}
+[30.911428] (-) TimerEvent: {}
+[31.026733] (-) TimerEvent: {}
+[31.141420] (-) TimerEvent: {}
+[31.248808] (-) TimerEvent: {}
+[31.349444] (-) TimerEvent: {}
+[31.452596] (-) TimerEvent: {}
+[31.558121] (-) TimerEvent: {}
+[31.670511] (-) TimerEvent: {}
+[31.779237] (-) TimerEvent: {}
+[31.887403] (-) TimerEvent: {}
+[31.995880] (-) TimerEvent: {}
+[32.107079] (-) TimerEvent: {}
+[32.211067] (-) TimerEvent: {}
+[32.311677] (-) TimerEvent: {}
+[32.425044] (-) TimerEvent: {}
+[32.533472] (-) TimerEvent: {}
+[32.645472] (-) TimerEvent: {}
+[32.756800] (-) TimerEvent: {}
+[32.859647] (-) TimerEvent: {}
+[32.960668] (-) TimerEvent: {}
+[33.071564] (-) TimerEvent: {}
+[33.176475] (-) TimerEvent: {}
+[33.291486] (-) TimerEvent: {}
+[33.403605] (-) TimerEvent: {}
+[33.510397] (-) TimerEvent: {}
+[33.616090] (-) TimerEvent: {}
+[33.718764] (-) TimerEvent: {}
+[33.825114] (-) TimerEvent: {}
+[33.931469] (-) TimerEvent: {}
+[34.039386] (-) TimerEvent: {}
+[34.140895] (-) TimerEvent: {}
+[34.246446] (-) TimerEvent: {}
+[34.350977] (-) TimerEvent: {}
+[34.455367] (-) TimerEvent: {}
+[34.563795] (-) TimerEvent: {}
+[34.668490] (-) TimerEvent: {}
+[34.779536] (-) TimerEvent: {}
+[34.885379] (-) TimerEvent: {}
+[34.993054] (-) TimerEvent: {}
+[35.106083] (-) TimerEvent: {}
+[35.214407] (-) TimerEvent: {}
+[35.325048] (-) TimerEvent: {}
+[35.436576] (-) TimerEvent: {}
+[35.547106] (-) TimerEvent: {}
+[35.655637] (-) TimerEvent: {}
+[35.762163] (-) TimerEvent: {}
+[35.870902] (-) TimerEvent: {}
+[35.979308] (-) TimerEvent: {}
+[36.092954] (-) TimerEvent: {}
+[36.195785] (-) TimerEvent: {}
+[36.306798] (-) TimerEvent: {}
+[36.407848] (-) TimerEvent: {}
+[36.519974] (-) TimerEvent: {}
+[36.627430] (-) TimerEvent: {}
+[36.733982] (-) TimerEvent: {}
+[36.845544] (-) TimerEvent: {}
+[36.959745] (-) TimerEvent: {}
+[37.064539] (-) TimerEvent: {}
+[37.167650] (-) TimerEvent: {}
+[37.269606] (-) TimerEvent: {}
+[37.385344] (-) TimerEvent: {}
+[37.493172] (-) TimerEvent: {}
+[37.594078] (-) TimerEvent: {}
+[37.702439] (-) TimerEvent: {}
+[37.819953] (-) TimerEvent: {}
+[37.922533] (-) TimerEvent: {}
+[38.030493] (-) TimerEvent: {}
+[38.144599] (-) TimerEvent: {}
+[38.258124] (-) TimerEvent: {}
+[38.373528] (-) TimerEvent: {}
+[38.474089] (-) TimerEvent: {}
+[38.576192] (-) TimerEvent: {}
+[38.682906] (-) TimerEvent: {}
+[38.802493] (-) TimerEvent: {}
+[38.913541] (-) TimerEvent: {}
+[39.019156] (-) TimerEvent: {}
+[39.136373] (-) TimerEvent: {}
+[39.248414] (-) TimerEvent: {}
+[39.359661] (-) TimerEvent: {}
+[39.465016] (-) TimerEvent: {}
+[39.568429] (-) TimerEvent: {}
+[39.676252] (-) TimerEvent: {}
+[39.785414] (-) TimerEvent: {}
+[39.895393] (-) TimerEvent: {}
+[39.997490] (-) TimerEvent: {}
+[40.103179] (-) TimerEvent: {}
+[40.208202] (-) TimerEvent: {}
+[40.310844] (-) TimerEvent: {}
+[40.413541] (-) TimerEvent: {}
+[40.516949] (-) TimerEvent: {}
+[40.627997] (-) TimerEvent: {}
+[40.742452] (-) TimerEvent: {}
+[40.846597] (-) TimerEvent: {}
+[40.949105] (-) TimerEvent: {}
+[41.051585] (-) TimerEvent: {}
+[41.171038] (-) TimerEvent: {}
+[41.280449] (-) TimerEvent: {}
+[41.383310] (-) TimerEvent: {}
+[41.504536] (-) TimerEvent: {}
+[41.615537] (-) TimerEvent: {}
+[41.716431] (-) TimerEvent: {}
+[41.822064] (-) TimerEvent: {}
+[41.933464] (-) TimerEvent: {}
+[42.046158] (-) TimerEvent: {}
+[42.150610] (-) TimerEvent: {}
+[42.266529] (-) TimerEvent: {}
+[42.370570] (-) TimerEvent: {}
+[42.473365] (-) TimerEvent: {}
+[42.583924] (-) TimerEvent: {}
+[42.691614] (-) TimerEvent: {}
+[42.793246] (-) TimerEvent: {}
+[42.902468] (-) TimerEvent: {}
+[43.011408] (-) TimerEvent: {}
+[43.113601] (-) TimerEvent: {}
+[43.227514] (-) TimerEvent: {}
+[43.329947] (-) TimerEvent: {}
+[43.438210] (-) TimerEvent: {}
+[43.547245] (-) TimerEvent: {}
+[43.649042] (-) TimerEvent: {}
+[43.753448] (-) TimerEvent: {}
+[43.855205] (-) TimerEvent: {}
+[43.958021] (-) TimerEvent: {}
+[44.058614] (-) TimerEvent: {}
+[44.182825] (-) TimerEvent: {}
+[44.285437] (-) TimerEvent: {}
+[44.394020] (-) TimerEvent: {}
+[44.508818] (-) TimerEvent: {}
+[44.621721] (-) TimerEvent: {}
+[44.725549] (-) TimerEvent: {}
+[44.840717] (-) TimerEvent: {}
+[44.945558] (-) TimerEvent: {}
+[45.051557] (-) TimerEvent: {}
+[45.156135] (-) TimerEvent: {}
+[45.257475] (-) TimerEvent: {}
+[45.360158] (-) TimerEvent: {}
+[45.463690] (-) TimerEvent: {}
+[45.573344] (-) TimerEvent: {}
+[45.673924] (-) TimerEvent: {}
+[45.783937] (-) TimerEvent: {}
+[45.891014] (-) TimerEvent: {}
+[45.995029] (-) TimerEvent: {}
+[46.114795] (-) TimerEvent: {}
+[46.226376] (-) TimerEvent: {}
+[46.329020] (-) TimerEvent: {}
+[46.432397] (-) TimerEvent: {}
+[46.535987] (-) TimerEvent: {}
+[46.638879] (-) TimerEvent: {}
+[46.744203] (-) TimerEvent: {}
+[46.846987] (-) TimerEvent: {}
+[46.947781] (-) TimerEvent: {}
+[47.049733] (-) TimerEvent: {}
+[47.156703] (-) TimerEvent: {}
+[47.259399] (-) TimerEvent: {}
+[47.364583] (-) TimerEvent: {}
+[47.466504] (-) TimerEvent: {}
+[47.579933] (-) TimerEvent: {}
+[47.689118] (-) TimerEvent: {}
+[47.790930] (-) TimerEvent: {}
+[47.906619] (-) TimerEvent: {}
+[48.010782] (-) TimerEvent: {}
+[48.114482] (-) TimerEvent: {}
+[48.222899] (-) TimerEvent: {}
+[48.326517] (-) TimerEvent: {}
+[48.430708] (-) TimerEvent: {}
+[48.533312] (-) TimerEvent: {}
+[48.651530] (-) TimerEvent: {}
+[48.761528] (-) TimerEvent: {}
+[48.873130] (-) TimerEvent: {}
+[48.993772] (-) TimerEvent: {}
+[49.108150] (-) TimerEvent: {}
+[49.213169] (-) TimerEvent: {}
+[49.319546] (-) TimerEvent: {}
+[49.422768] (-) TimerEvent: {}
+[49.525506] (-) TimerEvent: {}
+[49.627458] (-) TimerEvent: {}
+[49.728621] (-) TimerEvent: {}
+[49.837422] (-) TimerEvent: {}
+[49.953574] (-) TimerEvent: {}
+[50.059003] (-) TimerEvent: {}
+[50.163606] (-) TimerEvent: {}
+[50.281464] (-) TimerEvent: {}
+[50.394471] (-) TimerEvent: {}
+[50.499637] (-) TimerEvent: {}
+[50.611314] (-) TimerEvent: {}
+[50.718669] (-) TimerEvent: {}
+[50.827570] (-) TimerEvent: {}
+[50.930927] (-) TimerEvent: {}
+[51.035555] (-) TimerEvent: {}
+[51.136554] (-) TimerEvent: {}
+[51.240609] (-) TimerEvent: {}
+[51.342922] (-) TimerEvent: {}
+[51.445753] (-) TimerEvent: {}
+[51.550542] (-) TimerEvent: {}
+[51.651510] (-) TimerEvent: {}
+[51.765234] (-) TimerEvent: {}
+[51.870703] (-) TimerEvent: {}
+[51.973613] (-) TimerEvent: {}
+[52.075688] (-) TimerEvent: {}
+[52.185517] (-) TimerEvent: {}
+[52.293413] (-) TimerEvent: {}
+[52.400652] (-) TimerEvent: {}
+[52.506624] (-) TimerEvent: {}
+[52.609461] (-) TimerEvent: {}
+[52.649724] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcar_gazebo_plugin.so\x1b[0m\n'}
+[52.713512] (-) TimerEvent: {}
+[52.814062] (-) TimerEvent: {}
+[52.916708] (-) TimerEvent: {}
+[53.019548] (-) TimerEvent: {}
+[53.123584] (-) TimerEvent: {}
+[53.225520] (-) TimerEvent: {}
+[53.328075] (-) TimerEvent: {}
+[53.429920] (-) TimerEvent: {}
+[53.530905] (-) TimerEvent: {}
+[53.635408] (-) TimerEvent: {}
+[53.736647] (-) TimerEvent: {}
+[53.840528] (-) TimerEvent: {}
+[53.941576] (-) TimerEvent: {}
+[54.042455] (-) TimerEvent: {}
+[54.145588] (-) TimerEvent: {}
+[54.246030] (-) TimerEvent: {}
+[54.350991] (-) TimerEvent: {}
+[54.451550] (-) TimerEvent: {}
+[54.552708] (-) TimerEvent: {}
+[54.654984] (-) TimerEvent: {}
+[54.755879] (-) TimerEvent: {}
+[54.871143] (-) TimerEvent: {}
+[54.971870] (-) TimerEvent: {}
+[55.073521] (-) TimerEvent: {}
+[55.178399] (-) TimerEvent: {}
+[55.279188] (-) TimerEvent: {}
+[55.381523] (-) TimerEvent: {}
+[55.482551] (-) TimerEvent: {}
+[55.583561] (-) TimerEvent: {}
+[55.702691] (-) TimerEvent: {}
+[55.808667] (-) TimerEvent: {}
+[55.910719] (-) TimerEvent: {}
+[56.012198] (-) TimerEvent: {}
+[56.114080] (-) TimerEvent: {}
+[56.215410] (-) TimerEvent: {}
+[56.318246] (-) TimerEvent: {}
+[56.420995] (-) TimerEvent: {}
+[56.522014] (-) TimerEvent: {}
+[56.623228] (-) TimerEvent: {}
+[56.725919] (-) TimerEvent: {}
+[56.828087] (-) TimerEvent: {}
+[56.930186] (-) TimerEvent: {}
+[57.032105] (-) TimerEvent: {}
+[57.134328] (-) TimerEvent: {}
+[57.236241] (-) TimerEvent: {}
+[57.339366] (-) TimerEvent: {}
+[57.441028] (-) TimerEvent: {}
+[57.549417] (-) TimerEvent: {}
+[57.656690] (-) TimerEvent: {}
+[57.758080] (-) TimerEvent: {}
+[57.874830] (-) TimerEvent: {}
+[57.981360] (-) TimerEvent: {}
+[58.087542] (-) TimerEvent: {}
+[58.196041] (-) TimerEvent: {}
+[58.298969] (-) TimerEvent: {}
+[58.399817] (-) TimerEvent: {}
+[58.503046] (-) TimerEvent: {}
+[58.603910] (-) TimerEvent: {}
+[58.705647] (-) TimerEvent: {}
+[58.807559] (-) TimerEvent: {}
+[58.908659] (-) TimerEvent: {}
+[59.012703] (-) TimerEvent: {}
+[59.115577] (-) TimerEvent: {}
+[59.225727] (-) TimerEvent: {}
+[59.330232] (-) TimerEvent: {}
+[59.440399] (-) TimerEvent: {}
+[59.545704] (-) TimerEvent: {}
+[59.648443] (-) TimerEvent: {}
+[59.753607] (-) TimerEvent: {}
+[59.857420] (-) TimerEvent: {}
+[59.958666] (-) TimerEvent: {}
+[60.069231] (-) TimerEvent: {}
+[60.187395] (-) TimerEvent: {}
+[60.457064] (-) TimerEvent: {}
+[60.558745] (-) TimerEvent: {}
+[60.661044] (-) TimerEvent: {}
+[60.771935] (-) TimerEvent: {}
+[60.876901] (-) TimerEvent: {}
+[60.977603] (-) TimerEvent: {}
+[61.088513] (-) TimerEvent: {}
+[61.126596] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target car_gazebo_plugin\n'}
+[61.147632] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[61.190232] (-) TimerEvent: {}
+[61.226317] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'install'}
+[61.226388] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/car_gazebo_plugin'], 'cwd': '/home/ros2/ros2_ws/build/car_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'nl_NL.UTF-8'), ('CCACHE_DIR', '/var/tmp/ccache'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity} {time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.local/bin:/home/ros2/.local/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1546,unix/ros2-VirtualBox:/tmp/.ICE-unix/1546'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25c4f356_83c0_42c3_a6c8_d455ab7fd86d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ATD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('CXX', '/usr/lib/ccache/g++'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/car_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble')]), 'shell': False}
+[61.241021] (car_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[61.241359] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.sh\n'}
+[61.241840] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.dsv\n'}
+[61.242145] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin\n'}
+[61.242241] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin\n'}
+[61.242606] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[61.242798] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[61.243115] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh\n'}
+[61.243362] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv\n'}
+[61.245057] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash\n'}
+[61.245698] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh\n'}
+[61.245836] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh\n'}
+[61.246002] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv\n'}
+[61.246103] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv\n'}
+[61.246262] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin\n'}
+[61.246734] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[61.247256] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[61.247429] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[61.247779] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake\n'}
+[61.247946] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake\n'}
+[61.248562] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml\n'}
+[61.249107] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so\n'}
+[61.262679] (car_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so" to ""\n'}
+[61.265273] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[61.292395] (-) TimerEvent: {}
+[61.378601] (car_gazebo_plugin) JobEnded: {'identifier': 'car_gazebo_plugin', 'rc': 0}
+[61.379705] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2/ros2_ws/build/smartcar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_ws/src/smartcar_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/smartcar_msgs

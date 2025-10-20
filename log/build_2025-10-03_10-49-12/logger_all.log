@@ -1,0 +1,365 @@
+[1.155s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.155s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b8faf772980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b8faf7724d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b8faf7724d0>>, mixin_verb=('build',))
+[5.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.974s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/ros2_ws'
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore'
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore_ament_install'
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_pkg']
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_pkg'
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_meta']
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_meta'
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ros']
+[6.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ros'
+[6.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[6.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[6.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extension 'ignore'
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extension 'ignore_ament_install'
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extensions ['colcon_pkg']
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extension 'colcon_pkg'
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extensions ['colcon_meta']
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extension 'colcon_meta'
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extensions ['ros']
+[6.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_gazebo_plugin) by extension 'ros'
+[6.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_gazebo_plugin' with type 'ros.ament_cmake' and name 'car_gazebo_plugin'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extensions ['ignore', 'ignore_ament_install']
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extension 'ignore'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extension 'ignore_ament_install'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extensions ['colcon_pkg']
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extension 'colcon_pkg'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extensions ['colcon_meta']
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extension 'colcon_meta'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extensions ['ros']
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_car) by extension 'ros'
+[6.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_car' with type 'ros.ament_cmake' and name 'smart_car'
+[6.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extension 'ignore'
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extension 'ignore_ament_install'
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extensions ['colcon_pkg']
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extension 'colcon_pkg'
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extensions ['colcon_meta']
+[6.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extension 'colcon_meta'
+[6.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extensions ['ros']
+[6.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcar_msgs) by extension 'ros'
+[6.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smartcar_msgs' with type 'ros.ament_cmake' and name 'smartcar_msgs'
+[6.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.564s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[6.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.750s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ackermann_msgs' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ackermann_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_args' from command line to 'None'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target' from command line to 'None'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.752s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.753s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_ws/build/ackermann_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_ws/install/ackermann_msgs', 'merge_install': False, 'path': '/home/ros2/ros2_ws/src/ackermann_msgs', 'symlink_install': False, 'test_result_base': None}
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_args' from command line to 'None'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_target' from command line to 'None'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_clean_cache' from command line to 'False'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_clean_first' from command line to 'False'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'cmake_force_configure' from command line to 'False'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'ament_cmake_args' from command line to 'None'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'catkin_cmake_args' from command line to 'None'
+[6.754s] Level 5:colcon.colcon_core.verb:set package 'smart_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.754s] DEBUG:colcon.colcon_core.verb:Building package 'smart_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_ws/build/smart_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_ws/install/smart_car', 'merge_install': False, 'path': '/home/ros2/ros2_ws/src/smart_car', 'symlink_install': False, 'test_result_base': None}
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_args' from command line to 'None'
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_target' from command line to 'None'
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.755s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.756s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.756s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.756s] Level 5:colcon.colcon_core.verb:set package 'smartcar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.756s] DEBUG:colcon.colcon_core.verb:Building package 'smartcar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_ws/build/smartcar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_ws/install/smartcar_msgs', 'merge_install': False, 'path': '/home/ros2/ros2_ws/src/smartcar_msgs', 'symlink_install': False, 'test_result_base': None}
+[6.759s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[6.759s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[6.760s] Level 5:colcon.colcon_core.verb:set package 'car_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.760s] DEBUG:colcon.colcon_core.verb:Building package 'car_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_ws/build/car_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_ws/install/car_gazebo_plugin', 'merge_install': False, 'path': '/home/ros2/ros2_ws/src/car_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[6.760s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.766s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_ws/src/ackermann_msgs' with build type 'ament_cmake'
+[6.767s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_ws/src/ackermann_msgs'
+[6.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_ws/src/smartcar_msgs' with build type 'ament_cmake'
+[6.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_ws/src/smartcar_msgs'
+[6.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.898s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_ws/src/smart_car' with build type 'ament_cmake'
+[6.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_ws/src/smart_car'
+[6.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/ackermann_msgs -- -j6 -l6
+[7.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/smartcar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smartcar_msgs -- -j6 -l6
+[7.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j6 -l6
+[8.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j6 -l6
+[8.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[8.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_car)
+[8.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[8.998s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car' for CMake module files
+[9.007s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car' for CMake config files
+[9.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_car', 'cmake_prefix_path')
+[9.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.ps1'
+[9.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.dsv'
+[9.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.sh'
+[9.068s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib'
+[9.069s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/bin'
+[9.071s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib/pkgconfig/smart_car.pc'
+[9.071s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib/python3.10/site-packages'
+[9.073s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/bin'
+[9.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.ps1'
+[9.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv'
+[9.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.sh'
+[9.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.bash'
+[9.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.zsh'
+[9.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/smart_car/share/colcon-core/packages/smart_car)
+[9.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_car)
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car' for CMake module files
+[9.290s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car' for CMake config files
+[9.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_car', 'cmake_prefix_path')
+[9.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.ps1'
+[9.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.dsv'
+[9.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smart_car/share/smart_car/hook/cmake_prefix_path.sh'
+[9.299s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib'
+[9.299s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/bin'
+[9.299s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib/pkgconfig/smart_car.pc'
+[9.302s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/lib/python3.10/site-packages'
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smart_car/bin'
+[9.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.ps1'
+[9.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.sh'
+[9.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.bash'
+[9.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smart_car/share/smart_car/package.zsh'
+[9.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/smart_car/share/colcon-core/packages/smart_car)
+[10.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/smartcar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smartcar_msgs -- -j6 -l6
+[10.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/ackermann_msgs -- -j6 -l6
+[10.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/smartcar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smartcar_msgs
+[10.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/ackermann_msgs
+[11.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smartcar_msgs)
+[11.465s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs' for CMake module files
+[11.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/smartcar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smartcar_msgs
+[11.470s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs' for CMake config files
+[11.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcar_msgs', 'cmake_prefix_path')
+[11.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.ps1'
+[11.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.dsv'
+[11.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.sh'
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib'
+[11.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcar_msgs', 'ld_library_path_lib')
+[11.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.ps1'
+[11.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.dsv'
+[11.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.sh'
+[11.487s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/bin'
+[11.487s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib/pkgconfig/smartcar_msgs.pc'
+[11.488s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib/python3.10/site-packages'
+[11.489s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/bin'
+[11.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.ps1'
+[11.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.dsv'
+[11.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.sh'
+[11.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.bash'
+[11.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.zsh'
+[11.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/smartcar_msgs/share/colcon-core/packages/smartcar_msgs)
+[11.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[11.695s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs' for CMake module files
+[11.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/ackermann_msgs
+[11.699s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs' for CMake config files
+[11.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[11.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[11.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[11.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[11.710s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib'
+[11.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[11.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[11.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[11.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[11.717s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/bin'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[11.719s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/bin'
+[11.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[11.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[11.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[11.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[11.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[11.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[11.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smartcar_msgs)
+[11.975s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs' for CMake module files
+[11.978s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs' for CMake config files
+[11.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcar_msgs', 'cmake_prefix_path')
+[11.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.ps1'
+[11.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.dsv'
+[11.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/cmake_prefix_path.sh'
+[11.986s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib'
+[11.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcar_msgs', 'ld_library_path_lib')
+[11.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.ps1'
+[11.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.dsv'
+[11.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/hook/ld_library_path_lib.sh'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/bin'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib/pkgconfig/smartcar_msgs.pc'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/lib/python3.10/site-packages'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/smartcar_msgs/bin'
+[11.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.ps1'
+[11.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.dsv'
+[12.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.sh'
+[12.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.bash'
+[12.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.zsh'
+[12.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/smartcar_msgs/share/colcon-core/packages/smartcar_msgs)
+[12.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[12.336s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs' for CMake module files
+[12.338s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs' for CMake config files
+[12.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[12.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[12.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[12.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[12.345s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib'
+[12.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[12.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[12.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[12.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/bin'
+[12.352s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[12.353s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[12.354s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/ackermann_msgs/bin'
+[12.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[12.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[12.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[12.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[12.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_ws/src/car_gazebo_plugin' with build type 'ament_cmake'
+[12.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_ws/src/car_gazebo_plugin'
+[12.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/car_gazebo_plugin': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_ws/build/car_gazebo_plugin -- -j6 -l6
+[14.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/car_gazebo_plugin' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_ws/build/car_gazebo_plugin -- -j6 -l6
+[14.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/car_gazebo_plugin': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_ws/build/car_gazebo_plugin
+[14.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_gazebo_plugin)
+[14.627s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin' for CMake module files
+[14.629s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin' for CMake config files
+[14.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/car_gazebo_plugin' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_ws/build/car_gazebo_plugin
+[14.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_gazebo_plugin', 'cmake_prefix_path')
+[14.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[14.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[14.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.sh'
+[14.642s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib'
+[14.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_gazebo_plugin', 'ld_library_path_lib')
+[14.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[14.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[14.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.sh'
+[14.650s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/bin'
+[14.650s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib/pkgconfig/car_gazebo_plugin.pc'
+[14.651s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib/python3.10/site-packages'
+[14.651s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/bin'
+[14.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.ps1'
+[14.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv'
+[14.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.sh'
+[14.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.bash'
+[14.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.zsh'
+[14.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/car_gazebo_plugin/share/colcon-core/packages/car_gazebo_plugin)
+[14.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_gazebo_plugin)
+[14.815s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin' for CMake module files
+[14.816s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin' for CMake config files
+[14.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_gazebo_plugin', 'cmake_prefix_path')
+[14.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[14.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[14.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/cmake_prefix_path.sh'
+[14.824s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib'
+[14.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_gazebo_plugin', 'ld_library_path_lib')
+[14.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[14.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[14.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/hook/ld_library_path_lib.sh'
+[14.830s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/bin'
+[14.830s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib/pkgconfig/car_gazebo_plugin.pc'
+[14.832s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/lib/python3.10/site-packages'
+[14.837s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/car_gazebo_plugin/bin'
+[14.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.ps1'
+[14.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv'
+[14.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.sh'
+[14.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.bash'
+[14.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.zsh'
+[14.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/car_gazebo_plugin/share/colcon-core/packages/car_gazebo_plugin)
+[14.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.852s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.915s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.991s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.ps1'
+[15.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_ws/install/_local_setup_util_ps1.py'
+[15.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.ps1'
+[15.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.sh'
+[15.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_ws/install/_local_setup_util_sh.py'
+[15.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.sh'
+[15.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.bash'
+[15.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.bash'
+[15.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.zsh'
+[15.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.zsh'

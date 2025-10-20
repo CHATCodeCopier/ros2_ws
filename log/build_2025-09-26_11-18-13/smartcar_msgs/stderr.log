@@ -1,0 +1,11 @@
+gmake[2]: *** Deleting file 'libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so'
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Deleting file 'libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so'
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:119: libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so] Interrupt
+gmake[2]: *** [CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:117: libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

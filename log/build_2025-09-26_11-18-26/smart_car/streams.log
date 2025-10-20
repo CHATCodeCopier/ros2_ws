@@ -1,0 +1,45 @@
+[0.058s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.166s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.747s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.887s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.900s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.934s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.261s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.264s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.351s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.631s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.876s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.877s] -- Added test 'lint_cmake' to check CMake code style
+[1.878s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.881s] -- Added test 'xmllint' to check XML markup files
+[1.884s] -- Configuring done
+[1.905s] -- Generating done
+[1.920s] -- Build files have been written to: /home/ros2/ros2_ws/build/smart_car
+[2.020s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[2.210s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[2.246s] -- Install configuration: ""
+[2.247s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[2.247s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[2.247s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz
+[2.248s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
+[2.248s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[2.248s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[2.249s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+[2.250s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car
+[2.251s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car
+[2.251s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh
+[2.251s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv
+[2.251s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.sh
+[2.252s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv
+[2.253s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.bash
+[2.253s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.sh
+[2.254s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh
+[2.254s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv
+[2.254s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv
+[2.254s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car
+[2.255s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake
+[2.256s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake
+[2.256s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.xml
+[2.262s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car

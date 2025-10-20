@@ -1,0 +1,131 @@
+[0.022s] Invoking command in '/home/ros2/ros2_ws/build/car_gazebo_plugin': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_ws/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/car_gazebo_plugin
+[0.378s] -- The C compiler identification is GNU 11.4.0
+[0.647s] -- The CXX compiler identification is GNU 11.4.0
+[0.694s] -- Detecting C compiler ABI info
+[0.843s] -- Detecting C compiler ABI info - done
+[0.866s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.866s] -- Detecting C compile features
+[0.867s] -- Detecting C compile features - done
+[0.873s] -- Detecting CXX compiler ABI info
+[1.034s] -- Detecting CXX compiler ABI info - done
+[1.057s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[1.057s] -- Detecting CXX compile features
+[1.057s] -- Detecting CXX compile features - done
+[1.239s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.239s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.239s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.239s]   problems in calling code that expects `find_package` result variables
+[1.239s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.239s] Call Stack (most recent call first):
+[1.239s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.240s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.240s]   CMakeLists.txt:14 (find_package)
+[1.240s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.240s] [0m
+[1.240s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.245s] -- Checking for module 'bullet>=2.82'
+[1.361s] --   Found bullet, version 3.05
+[1.892s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.065s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.349s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.950s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.103s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.186s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.290s] -- Searching for dependencies of ignition-math6
+[3.301s] -- Looking for OGRE...
+[3.301s] -- OGRE_PREFIX_WATCH changed.
+[3.309s] -- Checking for module 'OGRE'
+[3.339s] --   Found OGRE, version 1.9.0
+[3.426s] -- Found Ogre Ghadamon (1.9.0)
+[3.474s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.486s] -- Looking for OGRE_Paging...
+[3.501s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.501s] -- Looking for OGRE_Terrain...
+[3.517s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.517s] -- Looking for OGRE_Property...
+[3.535s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.535s] -- Looking for OGRE_RTShaderSystem...
+[3.554s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.554s] -- Looking for OGRE_Volume...
+[3.565s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.565s] -- Looking for OGRE_Overlay...
+[3.585s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.900s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.934s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.935s] -- Searching for dependencies of ignition-transport8
+[3.963s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.983s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.992s] -- Checking for module 'libzmq >= 4'
+[4.135s] --   Found libzmq , version 4.3.4
+[4.225s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.244s] -- Checking for module 'uuid'
+[4.292s] --   Found uuid, version 2.37.2
+[4.369s] -- Found UUID: TRUE  
+[4.401s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.402s] -- Searching for dependencies of ignition-msgs5
+[4.429s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.440s] -- Checking for module 'tinyxml2'
+[4.491s] --   Found tinyxml2, version 9.0.0
+[4.576s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.588s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.588s] -- Searching for dependencies of ignition-common3
+[4.596s] -- Looking for dlfcn.h - found
+[4.596s] -- Looking for libdl - found
+[4.596s] -- Found DL: TRUE  
+[4.619s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.623s] -- Searching for <ignition-common3> component [graphics]
+[4.626s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.626s] -- Searching for dependencies of ignition-common3-graphics
+[4.626s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.656s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.657s] -- Searching for dependencies of ignition-fuel_tools4
+[4.890s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.955s] -- Checking for module 'jsoncpp'
+[4.988s] --   Found jsoncpp, version 1.9.5
+[5.086s] -- Found JSONCPP: TRUE  
+[5.133s] -- Checking for module 'libzip'
+[5.165s] --   Found libzip, version 1.7.3
+[5.243s] -- Found ZIP: TRUE  
+[5.244s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.245s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.246s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.296s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[5.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.271s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.284s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.295s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.826s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.873s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.150s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.217s] -- Found Threads: TRUE  
+[8.647s] -- Gazebo version: 11.10
+[8.648s] -- Checking for module 'tbb'
+[8.680s] --   Found tbb, version 2021.5.0
+[8.794s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[8.816s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.987s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.048s] -- Found ackermann_msgs: 2.0.2 (/home/ros2/ros2_ws/install/ackermann_msgs/share/ackermann_msgs/cmake)
+[9.123s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[9.207s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.732s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[9.732s]   By not providing "Findsmartcar_msgs.cmake" in CMAKE_MODULE_PATH this
+[9.732s]   project has asked CMake to find a package configuration file provided by
+[9.732s]   "smartcar_msgs", but CMake did not find one.
+[9.733s] 
+[9.733s]   Could not find a package configuration file provided by "smartcar_msgs"
+[9.733s]   with any of the following names:
+[9.733s] 
+[9.733s]     smartcar_msgsConfig.cmake
+[9.733s]     smartcar_msgs-config.cmake
+[9.733s] 
+[9.733s]   Add the installation prefix of "smartcar_msgs" to CMAKE_PREFIX_PATH or set
+[9.734s]   "smartcar_msgs_DIR" to a directory containing one of the above files.  If
+[9.734s]   "smartcar_msgs" provides a separate development package or SDK, be sure it
+[9.734s]   has been installed.
+[9.734s] 
+[9.734s] [0m
+[9.734s] -- Configuring incomplete, errors occurred!
+[9.734s] See also "/home/ros2/ros2_ws/build/car_gazebo_plugin/CMakeFiles/CMakeOutput.log".
+[9.758s] Invoked command in '/home/ros2/ros2_ws/build/car_gazebo_plugin' returned '1': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_ws/src/car_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/car_gazebo_plugin
