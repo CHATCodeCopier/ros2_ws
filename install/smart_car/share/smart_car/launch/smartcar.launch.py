@@ -32,7 +32,7 @@ def generate_launch_description():
             executable="joint_state_publisher.py",
             name="smartcar_joint_state_publisher",
             parameters=[{
-                # do NOT set use_sim_time here (let it run on wall time, 50 Hz)
+                "use_sim_time":True,
                 "status_topic": "/smartcar/vehicle_status",
                 "wheel_radius": 0.032
             }],
