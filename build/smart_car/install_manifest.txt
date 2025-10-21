@@ -8,7 +8,7 @@
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
-/home/ros2/ros2_ws/install/smart_car/lib/smart_car/wheel_odom
+/home/ros2/ros2_ws/install/smart_car/lib/smart_car/wheel_odom.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py

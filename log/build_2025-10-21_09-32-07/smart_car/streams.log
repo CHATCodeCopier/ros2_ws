@@ -1,0 +1,44 @@
+[0.891s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[1.271s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[3.375s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[3.384s] -- Install configuration: ""
+[3.386s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[3.386s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[3.386s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world
+[3.387s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world
+[3.388s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config
+[3.403s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
+[3.407s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/lib/smart_car/joint_state_publisher.py
+[3.407s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[3.409s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[3.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz
+[3.417s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
+[3.417s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/lib/smart_car/wheel_odom
+[3.418s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz
+[3.418s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
+[3.418s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[3.418s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[3.418s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv
+[3.421s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.sh
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.bash
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.sh
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv
+[3.422s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake
+[3.422s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.xml
+[3.429s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_ws/install/smartcar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ros2_ws/install/smartcar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car

@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config
+-- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/lib/smart_car/joint_state_publisher.py
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz
+-- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz

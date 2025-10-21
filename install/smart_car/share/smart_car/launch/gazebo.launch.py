@@ -57,7 +57,8 @@ def generate_launch_description():
             "right_steer_joint": "front_right_wheel_steer_joint",
             "odom_frame": "odom",
             "base_frame": "base_link",
-            "use_sim_time": True,
+            'use_sim_time': True,               # <— important in simulation
+
         }],
         remappings=[
             ("/smart_car/vehicle_status", "/smartcar/vehicle_status"),  # <-- topic name fix

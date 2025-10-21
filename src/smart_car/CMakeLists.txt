@@ -48,7 +48,7 @@ install(DIRECTORY launch config urdf Rviz
 
 
 install(PROGRAMS
-  scripts/wheel_odom
+  scripts/wheel_odom.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

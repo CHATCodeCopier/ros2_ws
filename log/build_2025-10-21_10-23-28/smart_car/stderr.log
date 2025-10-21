@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:71 (file):
+  file INSTALL cannot find
+  "/home/ros2/ros2_ws/src/smart_car/scripts/wheel_odom": No such file or
+  directory.
+
+[0m

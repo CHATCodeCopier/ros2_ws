@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car" TYPE PROGRAM FILES "/home/ros2/ros2_ws/src/smart_car/scripts/wheel_odom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car" TYPE PROGRAM FILES "/home/ros2/ros2_ws/src/smart_car/scripts/wheel_odom.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
