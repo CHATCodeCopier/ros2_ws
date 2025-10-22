@@ -1,10 +1,15 @@
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/nav2_map/smalltown_world.yaml
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/nav2_map/smalltown_world.pgm
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/config/nav2_params.yaml
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
 /home/ros2/ros2_ws/install/smart_car/lib/smart_car/joint_state_publisher.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/nav2.launch.py
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/config/nav2_params.yaml
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf_localization.yaml
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/Rviz/smartcar.rviz
@@ -13,6 +18,7 @@
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+/home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/nav2.launch.py
 /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car
 /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car
 /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh

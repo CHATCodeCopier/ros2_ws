@@ -27,6 +27,11 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY nav2_map
+  DESTINATION share/${PROJECT_NAME}
+)
+
 # Install the Gazebo world for §2.2.2
 install(
   DIRECTORY world
